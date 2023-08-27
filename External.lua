@@ -17,4 +17,3 @@ end
 function Print(m)
     rconsoleprint(m)
 end
-local YN = rconsoleinput()
