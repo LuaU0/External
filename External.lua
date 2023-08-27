@@ -14,3 +14,6 @@ end
 function Destroy()
     rconsoleclose()
 end
+function Print(m)
+    rconsoleprint(m)
+end
