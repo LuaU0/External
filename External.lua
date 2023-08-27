@@ -6,3 +6,11 @@ local RunService = game:GetService("RunService")
 
 --// Request 
 local request = (syn and syn.request) or (http and http.request) or http_request
+
+--// Main
+function Name(m)
+    rconsolename(m)
+end
+function Destroy()
+    rconsoleclose()
+end
