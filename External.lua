@@ -17,3 +17,6 @@ end
 function Print(m)
     rconsoleprint(m)
 end
+function Input()
+    local input = rconsoleinput()
+end
