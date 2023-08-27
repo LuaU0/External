@@ -17,14 +17,3 @@ end
 function Print(m)
     rconsoleprint(m)
 end
-function YN()
-    local input = rconsoleinput()
-    if input == "Y" or input == "y" or input == "Yes" or input == "yes" then
-    	rconsoleclear()
-    	rconsoleinfo("Loading.")
-    	task.wait(3)
-    	Destroy()
-    else
-    	Destroy()
-    end
-end
